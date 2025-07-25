@@ -9,22 +9,35 @@
 </head>
 <body>
     <header>
-        <nav class="flex justify-between items-center mt-8 mx-8">
-            <img src="./assets/logo.png" alt="" class="w-24">
+        <nav class="flex justify-between items-center mt-8 mx-8 sm:justify-between sm:items-end sm:mt-10 sm:mx-12 md:mt-10 md:mx-16 lg:mt-20 lg:mx-36 md:justify-between md:items-end lg:justify-between lg:items-center">
+            <img src="./assets/logo.png" alt="" class="w-24 sm:w-32 md:w-40 lg:w-40">
+            <div class="sm:flex items-center gap-10">
+                <ul class="hidden sm:flex sm:gap-6 md:gap-7 lg:text-xl lg:gap-8 text-gray-400">
+                    <li><a href="#" class="lg:hover:bg-amber-500 lg:p-2 lg:rounded-xl lg:hover:text-white lg:transition lg:delay-150">Home</a></li>
+                    <li><a href="#" class="lg:hover:bg-amber-500 lg:p-2 lg:rounded-xl lg:hover:text-white lg:transition lg:delay-150">Shop</a></li>
+                    <li><a href="#" class="lg:hover:bg-amber-500 lg:p-2 lg:rounded-xl lg:hover:text-white lg:transition lg:delay-150">About Us</a></li>
+                </ul>
 
-            <div class="navContent flex items-center gap-2">
-                <i class="fa-solid fa-cart-shopping text-2xl"></i>
-                <h3 class="text-2xl">Cart ($56)</h3>
+                <div class="navContent flex items-center gap-2">
+                <i class="fa-solid fa-cart-shopping text-2xl lg:text-2xl"></i>
+                <h3 class="text-2xl lg:text-2xl">Cart ($56)</h3>
             </div>
+            </div>
+            
         </nav>
 
-        <img src="./assets/hero-flower.png" alt="" class="w-full">
+        
     </header>
 
     <main>
-        <div class="mx-8 mt-10">
+        <div>
+            <div class="sm: sm:mt-10 sm:mx-12 md:mt-10 md:mx-16">
+                <img src="./assets/hero-flower.png" alt="" class="w-full">
+            </div>
+            <div class="mx-8 mt-10">
             <h1 class="text-4xl font-bold">Always <span class="text-orange-500">Fresh <br> Flowers</span>  </h1>
             <p class="text-gray-500 mt-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
         </div>
 
         <div class="mx-8 mt-10">
